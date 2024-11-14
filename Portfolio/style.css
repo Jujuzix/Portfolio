@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,sans-serif;
+    background-color: #0d1a2d;
+    height: 100vh;
+}
+
+.cardAlinhamento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.container{
+    margin-top: 100px;
+    width: 300px;
+    background-color: #0b182b;
+    border-right: 20px solid #0b182b ;
+    border-bottom: 40px solid #0b182b;
+    border-left: 20px solid #0b182b;
+    box-shadow: 0px 0px 0px 25px #0c192c;
+    border-radius: 20px;
+    display: inline-flex;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    background-color: #14273e;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.pImagem{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-block: 15px ;
+    width: 100%;
+    height: 250px;
+}
+
+.Imagem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 14px;
+    transition: 0.5s ease-in-out;
+    background-image: url('images/image-equilibrium.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Imagem::before{
+    border-radius: 12px;
+    opacity: 0;
+    transition: 1s ease-in-out;
+    background-color: rgb(3, 255, 255);
+    height: 300px;
+    width: 300px;
+    display: none;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.Imagem:hover{
+    cursor: pointer;
+    filter: brightness(1.0) hue-rotate(3deg) saturate(100%);
+}
+
+.Imagem:hover::before{
+    opacity: 0.5;
+    display: block;
+}
+
+.Imagem svg{
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.Imagem:hover svg{
+    opacity: 1;
+    filter: brightness(1.0) hue-rotate(0deg) saturate(100%);
+}
+
+.descr{
+    height: 100%;
+    margin-inline: 30px;
+    margin-bottom: 20px;
+}
+
+.Descparagr{
+    margin-block: 10px;
+}
+
+.infos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #738aa93a;
+}
+
+.Infos1{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 154px;
+}
+
+.Infos2{
+    flex-direction: row;
+    display: flex;
+    justify-content:flex-end ;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 154px;
+}
+
+.nickname{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    } 
+
+
+@media only screen and (max-width: 375px) {
+    .pImagem{
+    margin-top: 0px;
+    }
+    .Imagem {
+        width: 90%;
+        height: 90%;
+    }
+    .Infos1, .Infos2{
+        flex-direction: column;
+        }
+    }
+
+
+@media only screen and (max-width: 225px) {
+    .infos{
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    }
+    .Infos1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 50px;
+    gap: 5px;
+    padding-top: 5px;
+}
+    .Infos2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 50px;
+    gap: 5px;
+    padding-top: 5px;
+    }
+}
+@media only screen and (max-width: 225px) {
+    .nickname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 10px;
+    gap: 20px;
+    }
+}
+
+
+p{
+    color: #738aa93a;
+}
+
+.title{
+    color: #fff;
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.title:hover{
+    cursor: pointer;
+    color: rgb(4, 247, 247);
+}
+
+h2{
+    color: rgb(7, 241, 241);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+strong{
+    color: white;
+    font-weight: 200;
+    padding: 5px;
+    }
+
+    strong:hover{
+    cursor: pointer;
+    color: aqua;
+    
+    }
