@@ -1,12 +1,12 @@
 <h1 aling="center">👩‍💻 Portifólio</h1>
-<p>Esse projeto consiste em demonstrar três atividades com algumas funcionalidades separadas em branchs, como:</p>
+<p>This project consists of demonstrating three activities with some functionalities separated into branches, such as:</p>
 
-<h1 aling="center">⚙ Funcionalidades</h1>
-<p>• Desafio de card NFT;</p>
-<p>• Desafio com componente CardList;</p>
-<p>• Desafio componente Header.</p>
+<h1 aling="center">⚙ Features</h1>
+<p>• NFT card challenge;</p>
+<p>•Challenge with CardList component;</p>
+<p>• Challenge Header component</p>
 
-<h1 aling="center">💻 Tecnologias Utilizadas</h1>
+<h1 aling="center">💻 Technologies Used</h1>
 <div align="center">
   <img src="https://cdn.simpleicons.org/html5/E34F26" height="40" alt="html5 logo"  />
   <img width="12" />
