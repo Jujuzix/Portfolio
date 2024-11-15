@@ -18,7 +18,6 @@
 
 <h1 aling="center">created by:</h1>
 <img align="left" height="200" src="https://github.com/user-attachments/assets/6472adf8-7c99-469a-843c-3003ede42b5c"/>
-<div align="center">
- <p>Juliana Maronez 🐱‍💻</p>
-</div>
+<h2>Juliana Maronez 🐱‍💻</h2>
+
 
