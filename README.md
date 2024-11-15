@@ -16,10 +16,9 @@
   <img width="12" />
 </div>
 
-<h1 aling="center">Created by:</h1>
+<h1 aling="center">Created by: Juliana Maronez 🐱‍💻</h1>
 <img align="left" height="200" src="https://github.com/user-attachments/assets/6472adf8-7c99-469a-843c-3003ede42b5c"/>
-<br clear="both">
- <h2>Juliana Maronez 🐱‍💻</h2>
+
 
 
 
