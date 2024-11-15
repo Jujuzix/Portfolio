@@ -2,9 +2,9 @@
 <p>Esse projeto consiste em demonstrar três atividades com algumas funcionalidades separadas em branchs, como:</p>
 
 <h1 aling="center">⚙ Funcionalidades</h1>
-<p>• Desafio de card NFT</p>
-<p>• Desafio com componente CardList</p>
-<p>• Desafio componente Header</p>
+<p>• Desafio de card NFT;</p>
+<p>• Desafio com componente CardList;</p>
+<p>• Desafio componente Header.</p>
 
 <h1 aling="center">💻 Tecnologias Utilizadas</h1>
 <div align="center">
