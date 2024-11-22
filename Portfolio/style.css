@@ -23,13 +23,14 @@ body {
 }
 
 .containerr img {
+    border-radius: 50%;
     margin-left: 22px;
     width: 150px;
     height: 150px;
 }
 
 header {
-    background-color: #0b182b;
+    background-color: #023481;
     color: #fff;
     padding: 10px 0;
     border-bottom: #0d1a2d;
@@ -90,7 +91,7 @@ header {
 
 .container {
     width: 350px;
-    background-color: #14273e;
+    background-color: #023481;
     border-radius: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     display: inline-flex;
@@ -102,7 +103,7 @@ header {
 .Card {
     display: flex;
     flex-direction: column;
-    background-color: #0b182b;
+    background-color: #023481;
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -160,7 +161,7 @@ header {
 
 .title:hover {
     cursor: pointer;
-    color: rgb(4, 247, 247);
+    color: rgb(247, 4, 4);
 }
 
 .Descparagr {
